@@ -1,0 +1,16 @@
+std_msgs/Header header
+
+uint8 STATUS_INITIALIZING=0
+uint8 STATUS_CLEANING=1
+uint8 STATUS_CLEANING_DONE=2
+uint8 STATUS_PROCESSING=3
+uint8 STATUS_DISPENSED=4
+uint8 STATUS_AWAITING_PACKAGING=5
+uint8 STATUS_PASS_TO_PACKAGING=6
+uint8 STATUS_ERROR=7
+uint8 STATUS_IN_STORAGE=8
+
+int8 id
+int8 position_id
+uint8 status
+MaterialBox material_box

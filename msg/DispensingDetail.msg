@@ -1,0 +1,2 @@
+uint8 amount
+DrugLocation location
