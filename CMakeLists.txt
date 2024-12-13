@@ -20,15 +20,16 @@ set(action_files
 
 set(msg_files
   "msg/CleaningMachineScanner.msg"
+  "msg/ContainerInfo.msg"
   "msg/DispensingDetail.msg"
   "msg/DispensingError.msg"
   "msg/Drug.msg"
   "msg/DrugLocation.msg"
   "msg/MaterialBox.msg"
-  "msg/MaterialBoxContainerInfo.msg"
   "msg/MaterialBoxSlot.msg"
   "msg/MaterialBoxStatus.msg"
   "msg/MotorStatus.msg"
+  "msg/OrderCompletion.msg"
   "msg/OrderRequest.msg"
   "msg/OrderResponse.msg"
   "msg/PackageInfo.msg"

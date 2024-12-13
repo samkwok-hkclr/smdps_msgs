@@ -10,7 +10,7 @@ uint8 STATUS_PASS_TO_PACKAGING=6
 uint8 STATUS_ERROR=7
 uint8 STATUS_IN_STORAGE=8
 
-int8 id
-int8 position_id
+uint8 id
+string location
 uint8 status
 MaterialBox material_box
