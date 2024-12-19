@@ -1,0 +1,8 @@
+DispenseContent[] content
+
+---
+
+bool success
+
+# This will provide a verbose message
+string message

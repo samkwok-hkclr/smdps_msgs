@@ -21,6 +21,9 @@ set(action_files
 set(msg_files
   "msg/CleaningMachineScanner.msg"
   "msg/ContainerInfo.msg"
+  "msg/DispenseContent.msg"
+  "msg/DispenserStationStatus.msg"
+  "msg/DispenserUnitStatus.msg"
   "msg/DispensingDetail.msg"
   "msg/DispensingError.msg"
   "msg/Drug.msg"
@@ -47,6 +50,7 @@ set(msg_files
 
 set(srv_files
   "srv/CancelOrder.srv"
+  "srv/DispenseDrug.srv"
   "srv/PackagingOrder.srv"
 )
 
