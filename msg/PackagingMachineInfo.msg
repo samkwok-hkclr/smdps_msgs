@@ -5,7 +5,7 @@ bool stopper
 bool material_box_gate
 bool cutter
 
-bool[] rs_state
+bool[8] rs_state
 
 bool conveyor
 bool squeeze
