@@ -1,13 +1,16 @@
 uint8 id
 
-uint8 state
-uint8 NORMAL=0
-uint8 LACK=1
+bool lack
+#NORMAL=0
+#LACK=1
 
-uint8 bin_state
-uint8 baffle_state
-
-uint8 CLOSE=0
-uint8 OPEN=1
+bool bin_opening
+bool bin_opened
+bool bin_closing
+bool bin_closed
+bool baffle_opening
+bool baffle_opened
+bool baffle_closing
+bool baffle_closed
 
 bool enable

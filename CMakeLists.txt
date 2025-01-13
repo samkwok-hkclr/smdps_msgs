@@ -19,7 +19,6 @@ set(action_files
 )
 
 set(msg_files
-  "msg/CleaningMachineScanner.msg"
   "msg/ContainerInfo.msg"
   "msg/DispenseContent.msg"
   "msg/DispenserStationStatus.msg"
@@ -28,6 +27,7 @@ set(msg_files
   "msg/DispensingError.msg"
   "msg/Drug.msg"
   "msg/DrugLocation.msg"
+  "msg/Heartbeat.msg"
   "msg/MaterialBox.msg"
   "msg/MaterialBoxSlot.msg"
   "msg/MaterialBoxStatus.msg"
@@ -43,6 +43,7 @@ set(msg_files
   "msg/PackagingStatus.msg"
   "msg/PatientInfo.msg"
   "msg/PrintingInfo.msg"
+  "msg/ScannerTrigger.msg"
   "msg/UnbindMaterialBox.msg"
   "msg/UnbindOrderId.msg"
   "msg/UnbindRequest.msg"

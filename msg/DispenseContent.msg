@@ -1,2 +1,2 @@
-uint32 dispenser_unit
+uint32 unit_id
 uint8 amount
