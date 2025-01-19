@@ -47,12 +47,15 @@ set(msg_files
   "msg/UnbindMaterialBox.msg"
   "msg/UnbindOrderId.msg"
   "msg/UnbindRequest.msg"
+  "msg/UnitType.msg"
 )
 
 set(srv_files
   "srv/CancelOrder.srv"
   "srv/DispenseDrug.srv"
   "srv/PackagingOrder.srv"
+  "srv/PrintingOrder.srv"
+  "srv/UnitRequest.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

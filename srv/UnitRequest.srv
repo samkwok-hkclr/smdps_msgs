@@ -1,0 +1,8 @@
+uint8 unit_id
+bool data
+uint8 type
+
+---
+
+bool success
+string message

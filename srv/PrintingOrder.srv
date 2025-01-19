@@ -1,0 +1,7 @@
+uint8 material_box_id
+
+---
+PrintingInfo info
+
+bool success
+string message
