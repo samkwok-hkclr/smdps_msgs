@@ -9,6 +9,8 @@ PackageInfo[28] print_info
 # Identifier for who is requesting the service
 uint16 requester_id
 
+uint8 target_packaging_machine_id
+
 ---
 
 bool success
