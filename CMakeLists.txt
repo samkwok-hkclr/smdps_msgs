@@ -31,6 +31,7 @@ set(msg_files
   "msg/MaterialBox.msg"
   "msg/MaterialBoxSlot.msg"
   "msg/MaterialBoxStatus.msg"
+  "msg/MaterialBoxContainerInfo.msg"
   "msg/MotorStatus.msg"
   "msg/OrderCompletion.msg"
   "msg/OrderRequest.msg"

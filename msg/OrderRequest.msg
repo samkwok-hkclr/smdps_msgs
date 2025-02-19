@@ -9,3 +9,4 @@ int64 order_id
 MaterialBox material_box
 string start_date
 uint8 start_meal
+PatientInfo patient
