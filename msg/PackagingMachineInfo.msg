@@ -1,3 +1,5 @@
+uint8 id
+
 uint8 temperature
 uint16 temperature_ctrl
 

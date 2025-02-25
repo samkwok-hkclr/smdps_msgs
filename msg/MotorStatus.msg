@@ -1,3 +1,5 @@
+uint8 id
+
 uint8 pkg_dis_state
 
 uint8 pill_gate_loc
