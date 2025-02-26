@@ -20,3 +20,5 @@ uint8 package_length
 
 uint8 LENGTH_1=0
 uint8 LENGTH_2=1
+
+bool waiting_material_box
