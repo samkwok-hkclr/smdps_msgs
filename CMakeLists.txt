@@ -56,6 +56,7 @@ set(srv_files
   "srv/DispenseDrug.srv"
   "srv/PackagingOrder.srv"
   "srv/PrintingOrder.srv"
+  "srv/UInt8.srv"
   "srv/UnitRequest.srv"
 )
 

@@ -1,5 +1,7 @@
 uint8 id
 
+bool enable
+
 bool heartbeat
 bool running
 bool paused
