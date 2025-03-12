@@ -10,3 +10,5 @@ MaterialBox material_box
 string start_date
 uint8 start_meal
 PatientInfo patient
+
+uint8 priority
