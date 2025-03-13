@@ -19,6 +19,9 @@ set(action_files
 )
 
 set(msg_files
+  "msg/CameraState.msg"
+  "msg/CameraStatus.msg"
+  "msg/CameraTrigger.msg"
   "msg/ContainerInfo.msg"
   "msg/DispenseContent.msg"
   "msg/DispenserStationStatus.msg"
@@ -56,8 +59,10 @@ set(srv_files
   "srv/DispenseDrug.srv"
   "srv/PackagingOrder.srv"
   "srv/PrintingOrder.srv"
+  "srv/ReadRegister.srv"
   "srv/UInt8.srv"
   "srv/UnitRequest.srv"
+  "srv/WriteRegister.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

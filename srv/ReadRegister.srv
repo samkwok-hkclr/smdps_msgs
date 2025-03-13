@@ -1,0 +1,8 @@
+uint16 address  # Starting register address
+uint16 count    # Number of registers to read
+
+---
+
+int32[] values  # Read register values
+bool success    # Whether the operation was successful
+string message  # Status message

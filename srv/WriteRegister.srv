@@ -1,0 +1,7 @@
+uint16 address  # Starting register address
+int32[] values  # Values to write
+
+---
+
+bool success    # Whether the operation was successful
+string message  # Status message
