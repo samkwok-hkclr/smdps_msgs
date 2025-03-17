@@ -47,6 +47,7 @@ set(msg_files
   "msg/PackagingStatus.msg"
   "msg/PatientInfo.msg"
   "msg/PrintingInfo.msg"
+  "msg/ProductionLineStatus.msg"
   "msg/ScannerTrigger.msg"
   "msg/UnbindMaterialBox.msg"
   "msg/UnbindOrderId.msg"
@@ -57,6 +58,8 @@ set(msg_files
 set(srv_files
   "srv/CancelOrder.srv"
   "srv/DispenseDrug.srv"
+  "srv/NewOrder.srv"
+  "srv/MoveSlidingPlatform.srv"
   "srv/PackagingOrder.srv"
   "srv/PrintingOrder.srv"
   "srv/ReadRegister.srv"

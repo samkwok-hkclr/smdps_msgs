@@ -1,0 +1,7 @@
+uint8 dispense_station_id
+uint8 cell_no
+
+---
+
+bool success
+string message
