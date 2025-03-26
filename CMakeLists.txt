@@ -16,6 +16,7 @@ find_package(std_msgs REQUIRED)
 set(action_files
   "action/NewOrder.action"
   "action/PackagingOrder.action"
+  "action/VisualDetection.action"
 )
 
 set(msg_files
