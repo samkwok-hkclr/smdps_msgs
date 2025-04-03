@@ -1,0 +1,7 @@
+uint32 order_id
+uint32 material_box_id
+
+---
+
+bool success
+string message

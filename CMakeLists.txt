@@ -64,6 +64,7 @@ set(srv_files
   "srv/PackagingOrder.srv"
   "srv/PrintingOrder.srv"
   "srv/ReadRegister.srv"
+  "srv/SimplifiedPackagingOrder.srv"
   "srv/UInt8.srv"
   "srv/UnitRequest.srv"
   "srv/WriteRegister.srv"
