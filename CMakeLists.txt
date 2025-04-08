@@ -25,6 +25,7 @@ set(msg_files
   "msg/CameraTrigger.msg"
   "msg/ContainerInfo.msg"
   "msg/DispenseContent.msg"
+  "msg/DispenseResult.msg"
   "msg/DispenserStationStatus.msg"
   "msg/DispenserUnitStatus.msg"
   "msg/DispensingDetail.msg"
