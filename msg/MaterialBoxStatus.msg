@@ -16,6 +16,7 @@ uint8 STATUS_IN_STORAGE=8
 
 uint8 id
 string location
+string next_location
 uint8 status
 MaterialBox material_box
 
