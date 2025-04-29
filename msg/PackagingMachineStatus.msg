@@ -22,5 +22,7 @@ uint8 LENGTH_1=0
 uint8 LENGTH_2=1
 
 bool waiting_material_box
+# True if waiting for material box, False if not waiting
 
 bool skip_packaging
+# True to skip packaging, False to proceed with packaging
