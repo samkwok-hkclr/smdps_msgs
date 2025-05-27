@@ -18,6 +18,10 @@ uint8 NORMAL=1
 
 uint8 package_length
 
+uint32 remain_package_length
+uint32 remain_thermal_length
+uint32 REMAIN_MARGIN=3000
+
 uint8 LENGTH_1=0
 uint8 LENGTH_2=1
 
