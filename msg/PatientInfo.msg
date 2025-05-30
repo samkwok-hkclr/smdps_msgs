@@ -1,3 +1,3 @@
 # patient name
 string name
-string institute_name
+string name_cn

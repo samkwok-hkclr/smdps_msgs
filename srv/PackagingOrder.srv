@@ -6,6 +6,8 @@ uint32 material_box_id
 # An vector containing information to be printed on the material box.
 PackageInfo[28] print_info
 
+string prescription_id
+
 # Identifier for who is requesting the service
 uint16 requester_id
 

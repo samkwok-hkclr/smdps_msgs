@@ -8,6 +8,7 @@ uint8 MEAL_EVENING=3
 int64 order_id
 MaterialBox material_box
 string start_date
+string prescription_id
 uint8 start_meal
 PatientInfo patient
 
